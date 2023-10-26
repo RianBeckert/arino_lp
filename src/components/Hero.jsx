@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsArrowRight } from 'react-icons/bs';
+import { GoArrowRight } from "react-icons/go";
 import { Link } from 'react-scroll';
 
 const Hero = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
             {/* Botão e texto */ }
             <div className="text-white text-lg flex md:flex-row flex-col-reverse md:items-center items-start justify-between gap-8">
                 <div>
-                    <a href="" className="inline-flex items-center gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in"><span>Get a Quote</span> <BsArrowRight/></a>
+                    <a href="" className="inline-flex items-center gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in"><span>Get a Quote</span> <GoArrowRight/></a>
                 </div>
                 <div className="md:w-1/2">
                     <p className="">We deliver best problem solving solution for our client and provide finishing product in present and upcoming future.</p>

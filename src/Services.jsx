@@ -1,4 +1,5 @@
-import { BsArrowRight } from 'react-icons/bs';
+
+import { GoArrowRight } from "react-icons/go";
 import service1 from "../src/assets/service_1.jpeg"
 import service2 from "../src/assets/service_2.jpeg"
 import service3 from "../src/assets/service_3.jpeg"
@@ -14,7 +15,7 @@ const Services = () => {
            <div className="lg:w-1/3 space-y-5">
                 <h4 className=" text-gray-200 font-semibold text-2x1">What Can We Do</h4>
                 <h2 className="text-5xl font-bold mb-5 leading-snug">Services we can help you with</h2>
-                <a href="" className="inline-flex items-center gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in"><span>See All Services</span> <BsArrowRight/></a>
+                <a href="" className="inline-flex items-center gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in"><span>See All Services</span> <GoArrowRight/></a>
            </div>
            {/* Cards */ }
             <div className="lg:w-2/3 my-8">

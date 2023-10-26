@@ -1,4 +1,4 @@
-import { BsArrowRight } from 'react-icons/bs';
+import { GoArrowRight } from "react-icons/go";
 import BlogCard from './BlogCard';
 
 const Blogs = () => {
@@ -26,7 +26,7 @@ const Blogs = () => {
                     <div className="lg:w-1/3 space-y-5 z-30">
                         <h4 className="text-gray-200 font-semibold text-2xl">Our Blog</h4>
                         <h2 className=" text-5xl font-bold mb-5 leading-snug">Explore recent publications</h2>
-                        <a href="" className="inline-flex items-center gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in"><span>View More Blog</span> <BsArrowRight/></a>
+                        <a href="" className="inline-flex items-center gap-2 font-semibold hover:text-orange transition-all duration-300 ease-in"><span>View More Blog</span> <GoArrowRight/></a>
                     </div>
 
                     {/* Cards */}
