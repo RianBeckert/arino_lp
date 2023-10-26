@@ -181,7 +181,7 @@ header, nav {
 
 .cs-player_btn::before{
   z-index: 0;
-  animation: 1500ms ease-out infinite;
+  animation: pulse-border 1500ms ease-out infinite;
 }
 
 .cs-player_btn::after{
